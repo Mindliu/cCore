@@ -30,5 +30,7 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-
+    'api' => [
+        'page_rank' => env('PAGE_RANK'),
+    ]
 ];
